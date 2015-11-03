@@ -64,7 +64,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="ASSAN"></a>
+            <a class="navbar-brand" href="index.html"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="ASSAN"></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -408,7 +408,7 @@
             <div class="blog-post">
                 <a href="#">
                     <div class="item-img-wrap">
-                        <img src="img/showcase-2.jpg" class="img-responsive" alt="workimg">
+                        <img src="<?php bloginfo('template_url'); ?>/img/showcase-2.jpg" class="img-responsive" alt="workimg">
                         <div class="item-img-overlay">
                             <span></span>
                         </div>
@@ -429,7 +429,7 @@
             <div class="blog-post">
                 <a href="#">
                     <div class="item-img-wrap">
-                        <img src="img/showcase-4.jpg" class="img-responsive" alt="workimg">
+                        <img src="<?php bloginfo('template_url'); ?>/img/showcase-4.jpg" class="img-responsive" alt="workimg">
                         <div class="item-img-overlay">
                             <span></span>
                         </div>
@@ -509,7 +509,7 @@
                 <ul class="list-unstyled popular-post">
                     <li>
                         <div class="popular-img">
-                            <a href="#"> <img src="img/img-7.jpg" class="img-responsive" alt=""></a>
+                            <a href="#"> <img src="<?php bloginfo('template_url'); ?>/img/img-7.jpg" class="img-responsive" alt=""></a>
                         </div>
                         <div class="popular-desc">
                             <h5> <a href="#">blog post image</a></h5>
@@ -518,7 +518,7 @@
                     </li>
                     <li>
                         <div class="popular-img">
-                            <a href="#"> <img src="img/img-8.jpg" class="img-responsive" alt=""></a>
+                            <a href="#"> <img src="<?php bloginfo('template_url'); ?>/img/img-8.jpg" class="img-responsive" alt=""></a>
                         </div>
                         <div class="popular-desc">
                             <h5> <a href="#">blog post image</a></h5>
@@ -527,7 +527,7 @@
                     </li>
                     <li>
                         <div class="popular-img">
-                            <a href="#"> <img src="img/img-9.jpg" class="img-responsive" alt=""></a>
+                            <a href="#"> <img src="<?php bloginfo('template_url'); ?>/img/img-9.jpg" class="img-responsive" alt=""></a>
                         </div>
                         <div class="popular-desc">
                             <h5> <a href="#">blog post image</a></h5>
@@ -616,15 +616,15 @@
                 <div class="footer-col">
                     <h3>Featured Work</h3>
                     <ul class="list-inline f2-work">
-                        <li><a href="portfolio-single.html"><img src="img/img-1.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-2.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-3.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-4.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-5.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-6.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-7.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-8.jpg" class="img-responsive" alt=""></a></li>
-                        <li><a href="portfolio-single.html"><img src="img/img-9.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-1.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-2.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-3.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-4.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-5.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-6.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-7.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-8.jpg" class="img-responsive" alt=""></a></li>
+                        <li><a href="portfolio-single.html"><img src="<?php bloginfo('template_url'); ?>/img/img-9.jpg" class="img-responsive" alt=""></a></li>
                     </ul>
                 </div>
             </div><!--footer col-->
