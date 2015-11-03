@@ -36,7 +36,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+    <?php wp_head(); ?>
 </head>
 <body>
 
@@ -719,5 +719,6 @@
 
 <!--customizable plugin edit according to your needs-->
 <script src="js/custom.js" type="text/javascript"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
