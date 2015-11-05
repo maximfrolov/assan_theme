@@ -1,5 +1,4 @@
 
-</div><!--navbar-default-->
 <div class="breadcrumb-wrap">
     <div class="container">
         <div class="row">
