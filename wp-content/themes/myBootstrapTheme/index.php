@@ -40,16 +40,16 @@
                 </p>
                 <p><a href="blog-single.html" class="btn btn-theme-dark">Read More...</a></p>
             </div><!--blog post-->
-            <div class="blog-post">
+            <!--<div class="blog-post">
                 <a href="#">
                     <div class="item-img-wrap">
-                        <img src="<?php bloginfo('template_url'); ?>/img/showcase-4.jpg" class="img-responsive" alt="workimg">
+                        <img src="<?php/* bloginfo('template_url'); */?>/img/showcase-4.jpg" class="img-responsive" alt="workimg">
                         <div class="item-img-overlay">
                             <span></span>
                         </div>
                     </div>
                 </a><!--work link-->
-                <ul class="list-inline post-detail">
+                <!--<ul class="list-inline post-detail">
                     <li>by <a href="#">assan</a></li>
                     <li><i class="fa fa-calendar"></i> 31st july 2014</li>
                     <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
@@ -59,7 +59,7 @@
 
                 <p><a href="blog-single.html" class="btn btn-theme-dark">Read More...</a></p>
             </div><!--blog post-->
-            <div class="blog-post">
+            <!--<div class="blog-post">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe src="http://player.vimeo.com/video/57175742"></iframe>
                 </div>
@@ -73,7 +73,7 @@
 
                 <p><a href="blog-single.html" class="btn btn-theme-dark">Read More...</a></p>
             </div><!--blog post-->
-            <div class="blog-post">
+            <!--<div class="blog-post">
 
                 <iframe height="170" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62974792&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
 
