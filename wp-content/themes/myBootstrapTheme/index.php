@@ -169,3 +169,4 @@
 </div><!--blog full main container-->
 <div class="divide60"></div>
 
+<?php get_footer(); ?>
