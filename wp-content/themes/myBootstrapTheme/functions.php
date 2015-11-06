@@ -38,8 +38,11 @@ add_action('wp_enqueue_scripts', 'loadStyleScript');
  * добавляем виджеты
  * */
 register_sidebar([
-    'name' => 'Меню',
-    'id'   => 'menu_header',
+    'name'          => 'Меню',
+    'id'            => 'menu_header',
+    'before_widget' => '',
+    'after_widget'  => '',
+    'class'         => '',
 ]);
 
 /*$args = [
