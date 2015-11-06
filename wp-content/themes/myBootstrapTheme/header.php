@@ -68,7 +68,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                         <li class="dropdown-submenu">
@@ -120,9 +120,9 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li>-->
                 <!--menu home li end here-->
-                <li class="dropdown">
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown">Portfolio <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu multi-level" role="menu">
                         <li class="dropdown-submenu">
@@ -187,9 +187,9 @@
                         </li>
 
                     </ul>
-                </li>
+                </li>-->
                 <!--menu Portfolio li end here-->
-                <li class="dropdown active">
+                <!--<li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="blog-full.html">Blog - full width</a></li>
@@ -200,9 +200,9 @@
                         <li><a href="blog-masonary.html">Blog - Masonry</a></li>
                         <li><a href="blog-single.html">Blog - Single</a></li>
                     </ul>
-                </li>
+                </li>-->
                 <!--menu blog li end here-->
-                <li class="dropdown">
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="about.html">About</a></li>
@@ -228,10 +228,9 @@
                         <li><a href="process.html">Our Process</a></li>
 
                     </ul>
-                </li>
+                </li>-->
                 <!--menu pages li end here-->
-
-                <li class="dropdown">
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features  <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu">
@@ -283,8 +282,9 @@
                         <li><a href="invoice.html">Invoice</a></li>
                         <li><a href="site-map.html">Site Map</a></li>
                     </ul>
-                </li><!--features-->
-                <li class="dropdown">
+                </li>-->
+                <!--features-->
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="shop-2col.html">2 columns sidebar</a></li>
@@ -298,9 +298,9 @@
                         <li><a href="shop-register.html">Register</a></li>
 
                     </ul>
-                </li> <!--menu Shop li end here-->
+                </li>--><!--menu Shop li end here-->
                 <!--mega menu-->
-                <li class="dropdown yamm-fw">
+                <!--<li class="dropdown yamm-fw">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shortcodes  <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li>
@@ -349,7 +349,7 @@
                             </div>
                         </li>
                     </ul>
-                </li> <!--menu Features li end here-->
+                </li> --><!--menu Features li end here-->
                 <!--mega menu end-->
 
                 <!--                        <li class="dropdown">
