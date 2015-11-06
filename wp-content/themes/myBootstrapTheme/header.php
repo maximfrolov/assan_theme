@@ -64,13 +64,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="ASSAN"></a>
+            <a class="navbar-brand" href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="ASSAN"></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <!--<li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">блог <!--<i class="fa fa-angle-down"></i>--></a>
+                    <!--<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                         <li class="dropdown-submenu">
                             <a tabindex="-1" href="#">home - revolution </a>
                             <ul class="dropdown-menu">
@@ -120,7 +120,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li>-->
+                </li>
                 <!--menu home li end here-->
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown">Portfolio <i class="fa fa-angle-down"></i></a>

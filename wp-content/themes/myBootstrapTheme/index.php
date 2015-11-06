@@ -4,12 +4,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <h4>Blog Sidebar</h4>
+                <h4>мой блог</h4>
             </div>
             <div class="col-sm-6 hidden-xs text-right">
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li>blog-sidebar</li>
+                    <li><a href="index.php"><i class="fa fa-home"></i></a></li>
+                    <li>блог</li>
                 </ol>
             </div>
         </div>
