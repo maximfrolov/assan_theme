@@ -55,3 +55,7 @@ register_sidebar([
     'before_title'  => '<h2 class="widgettitle">',
     'after_title'   => '</h2>'
 ];*/
+/*
+ * подключаем wp_bootstrap_navwalker.php
+ * */
+require_once('wp_bootstrap_navwalker.php');
