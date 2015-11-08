@@ -68,9 +68,16 @@
         </div>
         <div class="navbar-collapse collapse">
             <div class="nav navbar-nav navbar-right">
-                <?php if(!dynamic_sidebar('menu_header')): ?>
-
-                <?php endif; ?>
+                <?php
+                    wp_nav_menu(
+                        [
+                            'depth'       => 2,
+                            'menu_class'  => 'nav navbar-nav',
+                            'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                            'walker'      => new wp_bootstrap_navwalker()
+                        ]
+                    );
+                ?>
            </div>
         </div><!--/.nav-collapse -->
     </div><!--container-->
