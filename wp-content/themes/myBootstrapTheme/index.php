@@ -24,7 +24,7 @@
                 while (have_posts()) : the_post(); ?>
 
                     <div class="blog-post">
-                        <a href="#">
+                        <a href="<?php the_permalink(); ?>">
                             <div class="item-img-wrap">
                                 <img src="<?php bloginfo('template_url'); ?>/img/showcase-2.jpg" class="img-responsive" alt="workimg">
                                 <div class="item-img-overlay">
