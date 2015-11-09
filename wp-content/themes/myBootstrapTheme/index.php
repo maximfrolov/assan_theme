@@ -39,11 +39,11 @@
                             <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
                             <li><i class="fa fa-comment"></i> <a href="#"><?php comments_popup_link(); ?></a></li>
                         </ul>
-                        <h2><a href="#"><?php the_title(); ?></a></h2>
+                        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                         <p>
                             <?php the_excerpt(); ?>
                         </p>
-                        <p><a href="blog-single.html" class="btn btn-theme-dark">Read More...</a></p>
+                        <p><a href="<?php the_permalink(); ?>" class="btn btn-theme-dark">Read More...</a></p>
                     </div><!--blog post-->
 
                 <?php endwhile; ?>
