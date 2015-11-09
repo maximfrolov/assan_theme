@@ -41,7 +41,7 @@
                         </ul>
                         <h2><a href="#"><?php the_title(); ?></a></h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie
+                            <?php the_excerpt(); ?>
                         </p>
                         <p><a href="blog-single.html" class="btn btn-theme-dark">Read More...</a></p>
                     </div><!--blog post-->
