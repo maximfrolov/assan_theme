@@ -64,7 +64,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="ASSAN"></a>
+            <a class="navbar-brand" href="/">Webtiger</a>
         </div>
         <div class="navbar-collapse collapse">
             <div class="nav navbar-nav navbar-right">
