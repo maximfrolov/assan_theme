@@ -1,6 +1,6 @@
 <div class="col-md-3 col-md-offset-1">
     <div class="sidebar-box margin40">
-        <h4>Search</h4>
+        <h4>Поиск</h4>
         <form role="form" class="search-widget">
             <input name="search" type="text" class="form-control">
             <i class="fa fa-search"></i>
