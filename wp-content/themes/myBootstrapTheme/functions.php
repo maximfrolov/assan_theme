@@ -30,10 +30,12 @@ function loadStyleScript() {
     wp_enqueue_style('yamm', get_template_directory_uri() . '/css/yamm.css');
     wp_enqueue_style('magnific_popup', get_template_directory_uri() . '/css/magnific-popup.css');
 }
+
 /*
  * подключаем скрипты и стили
  * */
 add_action('wp_enqueue_scripts', 'loadStyleScript');
+
 /*
  * добавляем виджеты
  * */
@@ -55,7 +57,14 @@ register_sidebar([
     'before_title'  => '<h2 class="widgettitle">',
     'after_title'   => '</h2>'
 ];*/
+
 /*
  * подключаем wp_bootstrap_navwalker.php
  * */
 require_once('wp_bootstrap_navwalker.php');
+
+/*
+ * добавляем поддержку миниатюр для постов
+ * */
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size();
