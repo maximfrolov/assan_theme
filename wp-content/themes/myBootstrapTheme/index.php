@@ -39,7 +39,7 @@
                             <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
                             <li><i class="fa fa-comment"></i> <a href="#"><?php comments_popup_link(); ?></a></li>
                         </ul>
-                        <h2><a href="#">Lorem ipsum dollor sit amet</a></h2>
+                        <h2><a href="#"><?php the_title(); ?></a></h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie
                         </p>
