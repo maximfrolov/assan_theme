@@ -2,7 +2,7 @@
     <div class="sidebar-box margin40">
         <h4>Search</h4>
         <form role="form" class="search-widget">
-            <input type="text" class="form-control">
+            <input name="search" type="text" class="form-control">
             <i class="fa fa-search"></i>
         </form>
     </div><!--sidebar-box-->
