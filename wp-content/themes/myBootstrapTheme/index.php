@@ -19,16 +19,45 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <div class="blog-post">
+
+            <?php if (have_posts()) :
+                while (have_posts()) : the_post(); ?>
+
+                    <div class="blog-post">
+                        <a href="#">
+                            <div class="item-img-wrap">
+                                <img src="<?php bloginfo('template_url'); ?>/img/showcase-2.jpg" class="img-responsive" alt="workimg">
+                                <div class="item-img-overlay">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </a><!--work link-->
+                        <ul class="list-inline post-detail">
+                            <li><i class="fa fa-user"></i> <a href="#"><?php the_author(); ?></a></li>
+                            <li><i class="fa fa-calendar"></i> 31st july 2014</li>
+                            <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
+                            <li><i class="fa fa-comment"></i> <a href="#">6 Comments</a></li>
+                        </ul>
+                        <h2><a href="#">Lorem ipsum dollor sit amet</a></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie
+                        </p>
+                        <p><a href="blog-single.html" class="btn btn-theme-dark">Read More...</a></p>
+                    </div><!--blog post-->
+
+                <?php endwhile; ?>
+            <?php endif; ?>
+
+            <!--<div class="blog-post">
                 <a href="#">
                     <div class="item-img-wrap">
-                        <img src="<?php bloginfo('template_url'); ?>/img/showcase-2.jpg" class="img-responsive" alt="workimg">
+                        <img src="<?php /*bloginfo('template_url'); */?>/img/showcase-2.jpg" class="img-responsive" alt="workimg">
                         <div class="item-img-overlay">
                             <span></span>
                         </div>
                     </div>
                 </a><!--work link-->
-                <ul class="list-inline post-detail">
+                <!--<ul class="list-inline post-detail">
                     <li>by <a href="#">assan</a></li>
                     <li><i class="fa fa-calendar"></i> 31st july 2014</li>
                     <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
@@ -43,7 +72,7 @@
             <!--<div class="blog-post">
                 <a href="#">
                     <div class="item-img-wrap">
-                        <img src="<?php/* bloginfo('template_url'); */?>/img/showcase-4.jpg" class="img-responsive" alt="workimg">
+                        <img src="<?php /*bloginfo('template_url'); */?>/img/showcase-4.jpg" class="img-responsive" alt="workimg">
                         <div class="item-img-overlay">
                             <span></span>
                         </div>
@@ -92,7 +121,9 @@
                 <li class="next"><a href="#">Next Page &rarr;</a></li>
             </ul><!--pager-->
         </div><!--col-->
+
     <?php get_sidebar(); ?>
+
     </div><!--row for blog post-->
 </div><!--blog full main container-->
 <div class="divide60"></div>
