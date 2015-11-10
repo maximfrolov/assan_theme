@@ -30,7 +30,7 @@
                                     <?php the_post_thumbnail('', ['class' => 'img-responsive']); ?>
                                 <?php else : ?>
                                     <img src="<?php bloginfo('template_url'); ?>/img/showcase-3.jpg" class="img-responsive" alt=""/>
-                                <?php endif ?>
+                                <?php endif; ?>
                                 <div class="item-img-overlay">
                                     <span></span>
                                 </div>
