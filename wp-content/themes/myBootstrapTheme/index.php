@@ -26,7 +26,7 @@
                     <div class="blog-post">
                         <a href="<?php the_permalink(); ?>">
                             <div class="item-img-wrap">
-                                <img src="<?php bloginfo('template_url'); ?>/img/showcase-2.jpg" class="img-responsive" alt="workimg">
+                                <?php the_post_thumbnail(); ?>
                                 <div class="item-img-overlay">
                                     <span></span>
                                 </div>
