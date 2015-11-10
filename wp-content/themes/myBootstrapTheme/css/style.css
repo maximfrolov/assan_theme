@@ -6796,3 +6796,7 @@ body.coming-soon-full {
 .font-box > div {
   padding-bottom: 50px;
 }
+/* syle for class="nav"*/
+.nav {
+  padding-left: 10px;
+}
