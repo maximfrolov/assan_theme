@@ -3034,7 +3034,7 @@ ul.post-desc li + li {
 .post-detail li {
   font-size: 12px;
   vertical-align: middle;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .post-detail li i {
