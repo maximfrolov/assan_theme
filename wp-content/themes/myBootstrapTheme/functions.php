@@ -44,7 +44,11 @@ register_sidebar([
     'id'            => 'menu_header',
     'before_widget' => '',
     'after_widget'  => '',
-    'class'         => '',
+]);
+
+register_sidebar([
+    'name'          => 'Сайдбар',
+    'id'            => 'sidebar',
 ]);
 
 /*$args = [
