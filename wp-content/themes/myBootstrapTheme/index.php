@@ -26,7 +26,11 @@
                     <div class="blog-post">
                         <a href="<?php the_permalink(); ?>">
                             <div class="item-img-wrap">
-                                <?php the_post_thumbnail('', ['class' => 'img-responsive']); ?>
+                                <?php if(has_post_thumbnail()) : ?>
+                                    <?php the_post_thumbnail('', ['class' => 'img-responsive']); ?>
+                                <?php else : ?>
+                                    <img src="<?php bloginfo('template_url'); ?>/img/showcase-3.jpg" class="img-responsive" alt=""/>
+                                <?php endif ?>
                                 <div class="item-img-overlay">
                                     <span></span>
                                 </div>
