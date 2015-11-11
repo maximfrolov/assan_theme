@@ -49,6 +49,10 @@ register_sidebar([
 register_sidebar([
     'name'          => 'Сайдбар',
     'id'            => 'sidebar',
+    'before_widget' => '<div class="sidebar-box margin40 ">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4 class="sidebar-box">',
+    'after_title'   => '</h4>'
 ]);
 
 /*$args = [
