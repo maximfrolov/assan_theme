@@ -57,6 +57,17 @@ register_sidebar([
     'after_title'   => '</h4>'
 ]);
 
+/* регистрируем виджеты футера */
+/* footer 1 */
+register_sidebar([
+    'name'          => 'Footer 1',
+    'id'            => 'footer_1',
+    'before_widget' => '<div class="footer-col">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+]);
+
 /*$args = [
     'name'          => __( 'Sidebar name', 'theme_text_domain' ),
     'id'            => 'unique-sidebar-id',
