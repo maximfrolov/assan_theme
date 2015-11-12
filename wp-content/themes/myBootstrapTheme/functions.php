@@ -39,6 +39,7 @@ add_action('wp_enqueue_scripts', 'loadStyleScript');
 /*
  * добавляем виджеты
  * */
+/* регистрируем виджет для меню */
 register_sidebar([
     'name'          => 'Меню',
     'id'            => 'menu_header',
@@ -46,6 +47,7 @@ register_sidebar([
     'after_widget'  => '',
 ]);
 
+/* регистрируем виджеты для  сайдбара */
 register_sidebar([
     'name'          => 'Сайдбар',
     'id'            => 'sidebar',
