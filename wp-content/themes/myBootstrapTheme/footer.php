@@ -18,21 +18,10 @@
                 <?php endif; ?>
             </div>
             <div class="col-md-3 col-sm-6 margin30">
-                <div class="footer-col">
-                    <h3>Newsletter</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam,
-                    </p>
-                    <form role="form" class="subscribe-form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter email to subscribe">
-                                    <span class="input-group-btn">
-                                        <button class="btn  btn-theme-dark btn-lg" type="submit">Ok</button>
-                                    </span>
-                        </div>
-                    </form>
-                </div>
-            </div><!--footer col-->
+                <?php if(!dynamic_sidebar('footer_4')) : ?>
+                    <h3>Здесь блок виджетов: Footer 4</h3>
+                <?php endif; ?>
+            </div>
 
         </div>
         <div class="row">
@@ -43,7 +32,7 @@
             </div>
         </div>
     </div>
-</footer><!--default footer end here-->
+</footer><!--footer end here-->
 <?php wp_footer(); ?>
 </body>
 </html>
