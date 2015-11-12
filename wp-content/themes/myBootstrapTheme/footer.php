@@ -3,45 +3,10 @@
 
         <div class="row">
             <div class="col-md-3 col-sm-6 margin30">
-                <div class="footer-col">
-                    <h3>About assan</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie.
-                    </p>
-                    <ul class="list-inline footer-social">
-                        <li>
-                            <a href="#" class="social-icon si-dark si-gray-round si-colored-facebook">
-                                <i class="fa fa-facebook"></i>
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-icon si-dark si-gray-round si-colored-twitter">
-                                <i class="fa fa-twitter"></i>
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-icon si-dark si-gray-round si-colored-google-plus">
-                                <i class="fa fa-google-plus"></i>
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-icon si-dark si-gray-round si-colored-pinterest">
-                                <i class="fa fa-pinterest"></i>
-                                <i class="fa fa-pinterest"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-icon si-dark si-gray-round si-colored-linkedin">
-                                <i class="fa fa-linkedin"></i>
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div><!--footer col-->
+                <?php if(!dynamic_sidebar('footer_1')) : ?>
+                    <h3>Здесь блок виджетов: Footer 1</h3>
+                <?php endif; ?>
+            </div>
             <div class="col-md-3 col-sm-6 margin30">
                 <div class="footer-col">
                     <h3>Contact</h3>
