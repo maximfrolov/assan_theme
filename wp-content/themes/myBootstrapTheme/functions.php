@@ -87,6 +87,16 @@ register_sidebar([
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
 ]);
+
+/* footer 4 */
+register_sidebar([
+    'name'          => 'Footer 4',
+    'id'            => 'footer_4',
+    'before_widget' => '<div class="footer-col">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+]);
 /*$args = [
     'name'          => __( 'Sidebar name', 'theme_text_domain' ),
     'id'            => 'unique-sidebar-id',
