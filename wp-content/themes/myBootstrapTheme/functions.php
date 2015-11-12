@@ -68,6 +68,16 @@ register_sidebar([
     'after_title'   => '</h3>'
 ]);
 
+/* footer 2 */
+register_sidebar([
+    'name'          => 'Footer 2',
+    'id'            => 'footer_2',
+    'before_widget' => '<div class="footer-col">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+]);
+
 /*$args = [
     'name'          => __( 'Sidebar name', 'theme_text_domain' ),
     'id'            => 'unique-sidebar-id',
