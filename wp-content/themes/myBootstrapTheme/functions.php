@@ -53,7 +53,7 @@ register_sidebar([
     'id'            => 'sidebar',
     'before_widget' => '<div class="sidebar-box margin40 ">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h4 class="sidebar-box">',
+    'before_title'  => '<h4>',
     'after_title'   => '</h4>'
 ]);
 
