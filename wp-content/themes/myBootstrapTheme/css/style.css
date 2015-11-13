@@ -6810,23 +6810,8 @@ ul {
   padding-left: 0;
   list-style: none;
 }
+/* styles for widget of categories in sidebar */
 li.cat-item {
   padding: 5px 0;
   border-bottom: 1px solid #e5e5e5;
-}
-.cat-item li i {
-  color: #888;
-  margin-right: 10px;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.cat-item li:hover i {
-  margin-left: 5px;
-}
-
-.cat-item li a:hover {
-  color: #32c5d2;
 }
