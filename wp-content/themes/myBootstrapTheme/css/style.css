@@ -6797,11 +6797,36 @@ body.coming-soon-full {
   padding-bottom: 50px;
 }
 /********************************************** styles Maxim Frolov ***********************************************/
-/* syle for class="nav"*/
+/* style for class="nav"*/
 .nav {
   padding-left: 10px;
 }
 /* style for inactive widgets in footer */
 .row h3 {
   color: #ffffff;
+}
+/* styles for widgets in sidebar */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li.cat-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.cat-item li i {
+  color: #888;
+  margin-right: 10px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cat-item li:hover i {
+  margin-left: 5px;
+}
+
+.cat-item li a:hover {
+  color: #32c5d2;
 }
