@@ -58,42 +58,11 @@ register_sidebar([
 ]);
 
 /* регистрируем виджеты футера */
-/* footer 1 */
 register_sidebar([
-    'name'          => 'Footer 1',
-    'id'            => 'footer_1',
-    'before_widget' => '<div class="footer-col">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-]);
-
-/* footer 2 */
-register_sidebar([
-    'name'          => 'Footer 2',
-    'id'            => 'footer_2',
-    'before_widget' => '<div class="footer-col">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-]);
-
-/* footer 3 */
-register_sidebar([
-    'name'          => 'Footer 3',
-    'id'            => 'footer_3',
-    'before_widget' => '<div class="footer-col">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3>',
-    'after_title'   => '</h3>'
-]);
-
-/* footer 4 */
-register_sidebar([
-    'name'          => 'Footer 4',
-    'id'            => 'footer_4',
-    'before_widget' => '<div class="footer-col">',
-    'after_widget'  => '</div>',
+    'name'          => 'Footer',
+    'id'            => 'footer',
+    'before_widget' => '<div class="col-md-3 col-sm-6 margin30"><div class="footer-col">',
+    'after_widget'  => '</div></div>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
 ]);
