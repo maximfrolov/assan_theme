@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <?php if(!dynamic_sidebar('footer_1')) : ?>
+            <?php if(!dynamic_sidebar('footer')) : ?>
                 <h3>Здесь блок виджетов: Footer</h3>
             <?php endif; ?>
         </div>
