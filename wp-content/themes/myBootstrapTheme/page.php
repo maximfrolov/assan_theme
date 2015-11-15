@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div class="breadcrumb-wrap">
     <div class="container">
         <div class="row">
@@ -19,10 +18,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-
             <?php if (have_posts()) :
                 while (have_posts()) : the_post(); ?>
-
                     <div class="blog-post">
                         <h2><?php the_title(); ?></h2>
                         <a href="<?php the_permalink(); ?>">
@@ -38,9 +35,7 @@
                         <p>
                             <?php the_content(); ?>
                         </p>
-
                     </div><!--blog post-->
-
                 <?php endwhile; ?>
             <?php endif; ?>
         </div><!--col-->
@@ -48,5 +43,4 @@
     </div><!--row for blog post-->
 </div><!--blog full main container-->
 <div class="divide60"></div>
-
 <?php get_footer(); ?>
