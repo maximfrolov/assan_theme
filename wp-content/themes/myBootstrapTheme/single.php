@@ -53,8 +53,8 @@
             <?php endif; ?>
 
             <ul class="pager">
-                <li class="previous"><?php echo get_previous_posts_link('&larr; Предыдущая') ?></li>
-                <li class="next"><?php echo get_next_posts_link('Следующая &rarr;') ?></li>
+                <li class="previous"><?php previous_post_link('%link', '&larr; Предыдущий пост') ?></li>
+                <li class="next"><?php next_post_link('%link', 'Следующий пост &rarr;') ?></li>
             </ul><!--pager-->
         </div><!--col-->
 
