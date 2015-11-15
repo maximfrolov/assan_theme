@@ -9,16 +9,6 @@
     <?php if(!dynamic_sidebar('sidebar')) : ?>
         <h4>Здесь блок виджетов сайдбара</h4>
     <?php endif; ?>
-    <script>
-        $(function() {
-            $('div.sidebar-box ul li.cat-item')
-                .parent('ul')
-                .addClass('cat-list')
-                .end()
-                .children('a')
-                .after('<i class="fa fa-angle-right"></i>');
-        });
-    </script>
     <!--<div class="sidebar-box margin40">
         <h4>Text widget</h4>
         <p>
