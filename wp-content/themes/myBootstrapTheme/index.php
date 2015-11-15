@@ -40,7 +40,7 @@
                             <li><i class="fa fa-user"></i> <a href="#"><?php the_author(); ?></a></li>
                             <li><i class="fa fa-calendar"></i> <?php the_time('d.m.Y'); ?></li>
                             <li><i class="fa fa-clock-o"></i> <?php the_time('G:i'); ?></li>
-                            <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
+                            <li><i class="fa fa-tag"></i> <a href="#"><?php the_category(', '); ?></a></li>
                             <li><i class="fa fa-comment"></i> <a href="#"><?php comments_popup_link(); ?></a></li>
                         </ul>
                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
