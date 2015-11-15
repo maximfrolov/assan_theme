@@ -19,6 +19,7 @@ function loadStyleScript() {
     wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.js');
     wp_enqueue_script('html5shiv_min', get_template_directory_uri() . '/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js');
     wp_enqueue_script('respond_min', get_template_directory_uri() . '/https://oss.maxcdn.com/respond/1.4.2/respond.min.js');
+    wp_enqueue_script('main_jquery', get_template_directory_uri() . '/js/main.js');
     /* подключаемые стили */
     wp_enqueue_style('bootstrap_min', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
     wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
