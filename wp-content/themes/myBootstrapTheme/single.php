@@ -43,7 +43,7 @@
                             <li><i class="fa fa-tag"></i> <?php the_category(', '); ?></li>
                             <li><i class="fa fa-comment"></i> <?php comments_popup_link(); ?></li>
                         </ul>
-                        <h2><?php the_title(); ?></a></h2>
+                        <h2><?php the_title(); ?></h2>
                         <p>
                             <?php the_content(); ?>
                         </p>
