@@ -6802,7 +6802,7 @@ body.coming-soon-full {
   padding-left: 10px;
 }
 /* style for inactive widgets in footer */
-.row h3 {
+footer .row h3 {
   color: #ffffff;
 }
 /* styles for widgets in sidebar */
