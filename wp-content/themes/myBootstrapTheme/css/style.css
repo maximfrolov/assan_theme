@@ -6818,3 +6818,10 @@ li.cat-item {
   padding: 5px 0;
   border-bottom: 1px solid #e5e5e5;
 }
+/* styles for links to 404 page */
+.lead span > a {
+  color: #32C5D2;
+}
+.lead span > a:hover {
+  color: #888;
+}
