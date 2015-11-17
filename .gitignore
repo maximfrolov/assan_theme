@@ -1,4 +1,8 @@
 # игнорировать следующие директории:
 .idea/
-wp-admin/
-wp-includes/
+/wp-admin/*
+/wp-includes/*
+/wp-content/languages/*
+/wp-content/plugins/*
+/wp-content/themes/myBootstrapTheme/js/*
+!/wp-content/themes/myBootstrapTheme/js/main.js
