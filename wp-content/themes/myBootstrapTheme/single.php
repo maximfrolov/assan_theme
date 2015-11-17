@@ -51,6 +51,13 @@
 
                 <?php endwhile; ?>
             <?php endif; ?>
+            <div class="about-author">
+                <h4 class="colored-text">About the Author</h4>
+                <img src="<?php bloginfo('template_url') ?>/img/team-3.jpg" class="img-responsive" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, <span class="colored-text">adipiscing condimentum tristique</span> vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie
+                </p>
+            </div><!--about author-->
             <?php comments_template(); ?>
         </div><!--col-->
 
