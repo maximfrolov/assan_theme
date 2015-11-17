@@ -51,11 +51,7 @@
 
                 <?php endwhile; ?>
             <?php endif; ?>
-
-            <ul class="pager">
-                <li class="previous"><?php previous_post_link('%link', '&larr; Предыдущий пост') ?></li>
-                <li class="next"><?php next_post_link('%link', 'Следующий пост &rarr;') ?></li>
-            </ul><!--pager-->
+            <?php comments_template(); ?>
         </div><!--col-->
 
         <?php get_sidebar(); ?>
