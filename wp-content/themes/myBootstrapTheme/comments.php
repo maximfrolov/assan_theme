@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="comment-list">
-                <h4><img src="img/team-2.jpg" class="img-responsive" alt="">
+                <h4><img src="<?php bloginfo('template_url') ?>/img/team-2.jpg" class="img-responsive" alt="">
                     by User <a href="#" class="btn btn-xs btn-theme-dark">Reply</a>
                 </h4>
                 <p>
@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-10 col-md-offset-1">
             <div class="comment-list">
-                <h4><img src="img/team-3.jpg" class="img-responsive" alt="">
+                <h4><img src="<?php bloginfo('template_url') ?>/img/team-3.jpg" class="img-responsive" alt="">
                     by User <a href="#" class="btn btn-xs btn-theme-dark">Reply</a>
                 </h4>
                 <p>
@@ -23,7 +23,7 @@
         </div>
         <div class="col-md-12">
             <div class="comment-list">
-                <h4><img src="img/team-4.jpg" class="img-responsive" alt="">
+                <h4><img src="<?php bloginfo('template_url') ?>/img/team-4.jpg" class="img-responsive" alt="">
                     by User <a href="#" class="btn btn-xs btn-theme-dark">Reply</a>
                 </h4>
                 <p>
